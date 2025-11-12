@@ -1,0 +1,20 @@
+configuration{
+    modi: "run,drun";
+    icon-theme: "Papirus-Dark";
+    show-icons: true;
+    terminal: "ghostty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: " 󰕰  Window";
+    display-custom: "   Search";
+    display-Network: " 󰤨  Network";
+    sidebar-mode: true;
+}
+
+@theme "./nord/nord.rasi"
+
+//@theme "/home/matteo/.local/share/rofi/themes/catppuccin-mocha.rasi"

@@ -1,0 +1,7 @@
+#!/usr/bin//env bash
+
+script_dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+filter="$1"
+
+cd $script_dir
+scripts=$(find ./dev-env -maxdepth 1 -mindepth 1 -executable -type f)

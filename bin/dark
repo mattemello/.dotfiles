@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+sed -i 's/latte/mocha/' ~/.dotfiles/tmux/.config/tmux/tmux.conf
+#sed -i 's/light/dark/' ~/.dotfiles/tmux/.config/tmux/tmux.conf
+# sed -i 's/latte/mocha/' ~/.dotfiles/tmux/.config/tmux/tmux.conf
+tmux source-file ~/.config/tmux/tmux.conf
+
+killall -SIGUSR2 waybar &
+sed -i 's/latte/mocha/' ~/.dotfiles/waybar/.config/waybar/style.css
+
+sed -i 's/-latte/-mocha/' ~/.config/ghostty/config
+
+sed -i 's/0/1/' ~/.config/gtk-3.0/settings.ini
+
+sed -i 's/-latte/-mocha/' ~/.config/rofi/config.rasi
+
+#sed -i 's/_latte/_mocha/' ~/.config/nvim/lua/plugins/color-theme.lua
+
+# killall -SIGUSR2 hyprpaper &
+# sed -i 's/white/grey/' ~/.config/hypr/hyprpaper.conf
+# hyprpaper > /dev/null &
+
+#sed -i 's/$LATTE/$MOCHA/' ~/.zshrc
+#source ~/.zshrc

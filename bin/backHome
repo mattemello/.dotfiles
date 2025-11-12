@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+sudo sed -i 's/./#&/' /etc/NetworkManager/conf.d/wifi_backend.conf
+
+echo "------------------------------"
+echo "be careful going home, bye"
+echo "------------------------------"

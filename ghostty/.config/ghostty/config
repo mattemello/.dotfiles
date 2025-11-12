@@ -1,0 +1,23 @@
+# my ghostty confing
+
+## theme
+# theme = Kanagawa Wave
+theme = nord
+
+## font 
+font-family = Hasklug Nerd Font
+font-size = 11
+
+## cursor
+mouse-hide-while-typing = true
+shell-integration-features = no-cursor
+cursor-style-blink = false
+
+## window
+window-decoration = false
+background-opacity = 0.97
+background-blur = true
+#
+
+keybind = ctrl+shift+n=unbind
+keybind = ctrl+shift+,=reload_config

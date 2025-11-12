@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+firefox -new-tab "https://calendar.google.com/calendar/u/0/r/" &&
+firefox -new-tab "https://app.todoist.com/app/project/work-projects-6X4X9gw6qh8Xx4qv" &&
+hyprctl dispatch movetoworkspace 10
+

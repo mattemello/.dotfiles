@@ -1,0 +1,23 @@
+set -g @plugin 'catppuccin/tmux'
+
+set -g @catppuccin_flavor 'mocha'
+
+set -g @catppuccin_window_current_number_color "#{@thm_mauve}"
+set -g @catppuccin_window_status_style basic
+set -ogq @catppuccin_window_text " #W"
+set -g @catppuccin_window_default_text "#W"
+set -g @catppuccin_window_current_text " #W"
+set -ogq @catppuccin_window_number "#I"
+set -g @catppuccin_window_number_position "left"
+set -g @catppuccin_git_branch_enabled on
+set -g @catppuccin_uptime_color "#{@thm_pink}"
+set -g @catppuccin_session_color "#{?client_prefix,#{E:@thm_rosewater},#{E:@thm_sky}}"
+set -g @catppuccin_status_connect_separator "yes"
+set -g status-right-length 100
+set -g status-left-length 100
+
+set -g @catppuccin_disable_nerd_icons true
+set -g @catppuccin_status_left_separator "█"
+
+set -g status-left "#{E:@catppuccin_status_session} #{E:@catppuccin_session}"
+set -g status-right "#{E:@catppuccin_status_uptime} #{E:@catppuccin_status_date_time} "

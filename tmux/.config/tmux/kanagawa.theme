@@ -1,0 +1,14 @@
+# set -g @plugin 'Nybkox/tmux-kanagawa'
+#
+# set -g @kanagawa-theme 'wave'
+# set -g @kanagawa-show-left-icon "#h | #S"
+# set -g @kanagawa-plugins "cwd git time"
+#
+# set -g @kanagawa-show-git true
+# set -g @kanagawa-show-time true
+# set -g @kanagawa-git-disable-status false
+# set -g @kanagawa-cwd true
+# set -g @kanagawa-cwd-max-dirs '+'
+# set -g @kanagawa-cwd-max-chars "0"
+# set -g @kanagawa-show-flags false
+# set -g @kanagawa-time-format "%a %d-%b %H:%M:%S"

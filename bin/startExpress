@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+npx --yes -package express-generator"@latest" express --force --view pug
